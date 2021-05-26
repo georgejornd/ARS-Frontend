@@ -1,0 +1,207 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter');
+    @import url('fonts.css');
+
+    body
+    {
+        margin: 0;
+        font-family: 'Gilroy-Semibold';
+        background: linear-gradient(#3B1D60, #040D3E);
+        height: 200em;
+    }
+
+    .header
+    {
+        margin: 0 auto;
+        margin-top: 2em;
+        height: 50px;
+        width: 85%;
+        display: flex;
+        align-items: center;
+    }
+
+    .header-link
+    {
+        margin-left: 0.7rem;
+        letter-spacing: 1px;
+        color: #B5B5B5;
+    }
+
+    .hl-first
+    {
+        margin-left: 44px;
+    }
+
+    .header-rcontainer
+    {
+        flex-grow: 2;
+        justify-content: flex-end;
+        display: flex;
+    }
+
+    .btn
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        height: 36px;
+        border: 1.5px solid #F2994A;
+        border-radius: 5px;
+        margin-right: 1rem;
+        color: #F2994A;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .btn-yellow
+    {
+        color: #fff;
+        background: #F2994A;
+    }
+
+    .intro
+    {
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .intro-man
+    {
+        position: relative;
+        width: 600px;
+        height: 500px;
+        top: -3em;
+        right: -4em;
+    }
+
+    .intro-contaier
+    {
+        width: 50%;
+    }
+
+    .intro-title
+    {
+        font-family: 'Inter';
+        font-weight: 700;
+        color: #99EFD0;
+        font-size: 46px;
+        margin-bottom: 0.5rem;
+    }
+
+    .intro-subtitle
+    {
+        font-size: 18px;
+        color: #8476AA;
+        margin-bottom: 1rem;
+    }
+
+    .intro-flex-container
+    {
+        display: flex;
+        margin-bottom: 2rem;
+    }
+
+    .intro-dpreview
+    {
+        display: flex;
+        align-items: center;
+    }
+
+    .intro-dtext
+    {
+        margin-left: 1rem;
+    }
+
+    .introd-title
+    {
+        font-size: 16px;
+        color: #8476AA;
+    }
+
+    .introd-dtext
+    {
+        font-size: 14px;
+        color: #6D6D78;
+    }
+
+    .container
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    .top-two-em
+    {
+        margin-top: 2em;
+    }
+
+    .intro-downer-background
+    {
+        position: absolute;
+        margin-top: -5em;
+        width: 100%;
+        display: flex;
+    }
+
+    .intro-downer-background svg
+    {
+        width: 1537px;
+        height: 572px;
+    }
+
+    .intro-dcontainer
+    {
+        margin: 0 auto;
+        width: 85%;
+        margin-top: 4em;
+    }
+
+    .intro-dcontainer-top
+    {
+        text-align: center;
+    }
+
+    .big-title
+    {
+        font-weight: 700;
+        font-size: 42px;
+        color: #99EFD0;
+    }
+
+    .subtitle
+    {
+        color: #8476AA;
+    }
+
+    .bfs-container
+    {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .bfs-content
+    {
+        display: flex;
+        width: 340px;
+    }
+
+    .bfs-title
+    {
+        font-size: 18px;
+        color: #99EFD0;
+    }
+
+    .bfs-subtitle
+    {
+        font-size: 14px;
+        color: #8476AA;
+    }
