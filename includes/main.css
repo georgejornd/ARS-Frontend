@@ -185,24 +185,42 @@ body {
 
 .subtitle {
   color: #8476AA;
+  font-size: 15px;
+}
+
+.b1rem {
+  margin-bottom: 1rem;
 }
 
 .bfs-container {
   margin-top: 2rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .bfs-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 340px;
+  margin-bottom: 2rem;
+}
+
+.bfs-content svg {
+  position: relative;
+  top: -23px;
+  margin-right: 0.5rem;
+  float: left;
+  height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.bfs-content-text {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
 }
 
 .bfs-title {
@@ -213,5 +231,80 @@ body {
 .bfs-subtitle {
   font-size: 14px;
   color: #8476AA;
+}
+
+.timg-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.timg-container svg {
+  padding-top: 8em;
+}
+
+.timg-text-container {
+  width: 50%;
+}
+
+.ttc-title {
+  font-weight: 700;
+  font-size: 42px;
+  color: #99EFD0;
+  margin-bottom: 1rem;
+}
+
+.t-yellow {
+  color: #F2994A;
+}
+
+.timg-dbackground {
+  position: absolute;
+  margin-top: -14em;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.block-container {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.bc-img {
+  position: relative;
+  top: -5em;
+  background: url("img/block-container-img.png");
+  background-size: cover;
+  width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.flex-arround {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.card-img {
+  background: url("img/unknown.png");
+  background-size: cover;
+  width: 550px;
+  height: 340px;
 }
 /*# sourceMappingURL=main.css.map */
