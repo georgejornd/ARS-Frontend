@@ -155,7 +155,7 @@
     .bottom-background
     {
         position: absolute;
-        margin-top: -2em;
+        margin-top: -3em;
         left: -3em;
     }
 
@@ -245,6 +245,7 @@
         margin-top: 2rem;
         flex-wrap: wrap;
         display: flex;
+        justify-content: space-around;
     }
 
     .bfs-content
